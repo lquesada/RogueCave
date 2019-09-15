@@ -11,4 +11,4 @@ Features:
 -    Own proof-of-concept physics engine
 -    Own proof-of-concept isometric graphics engine
 -    Own proof-of-concept GUI engine
--    + others!
+-    more!
