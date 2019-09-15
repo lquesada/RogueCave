@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="garfield" name="test.com.elezeta.roguecave.LevelTest" tests="1" time="0.038" timestamp="2014-01-14T21:42:32">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.COLORFGBG" value="15;0" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/home/elezeta/Programas/jdk1.6.0_37/jre/lib/resources.jar:/home/elezeta/Programas/jdk1.6.0_37/jre/lib/rt.jar:/home/elezeta/Programas/jdk1.6.0_37/jre/lib/sunrsasign.jar:/home/elezeta/Programas/jdk1.6.0_37/jre/lib/jsse.jar:/home/elezeta/Programas/jdk1.6.0_37/jre/lib/jce.jar:/home/elezeta/Programas/jdk1.6.0_37/jre/lib/charsets.jar:/home/elezeta/Programas/jdk1.6.0_37/jre/lib/modules/jdk.boot.jar:/home/elezeta/Programas/jdk1.6.0_37/jre/classes" />
+    <property name="env.PWD" value="/home/elezeta/workspace/RogueCave" />
+    <property name="env.XDG_SESSION_COOKIE" value="617a367c430f9da03afaf0fb00000009-1389709997.989898-845143670" />
+    <property name="env.LANG" value="es_ES" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.6.0_37-b06" />
+    <property name="env.DISPLAY" value=":0.0" />
+    <property name="user.name" value="elezeta" />
+    <property name="env._" value="/usr/bin/ant" />
+    <property name="env.USER" value="elezeta" />
+    <property name="env.HISTCONTROL" value="ignoreboth" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat" />
+    <property name="env.PATH" value="/home/elezeta/umbrello/bin/umbrello:/home/elezeta/Programas/jdk1.7.0_09/bin:/home/elezeta/Programas/google_appengine:/usr/local/bin:/usr/bin:/bin:/usr/games:/home/elezeta/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="es" />
+    <property name="sun.boot.library.path" value="/home/elezeta/Programas/jdk1.6.0_37/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="RogueCave" />
+    <property name="java.version" value="1.6.0_37" />
+    <property name="user.timezone" value="" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-9JmcY5ABoq,guid=ec54a51f622792a0deb1351852d54aae" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.SSH_AGENT_PID" value="3228" />
+    <property name="java.endorsed.dirs" value="/home/elezeta/Programas/jdk1.6.0_37/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="ISO-8859-1" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="4" />
+    <property name="ant.file.RogueCave" value="/home/elezeta/workspace/RogueCave/build.xml" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="ES" />
+    <property name="java.home" value="/home/elezeta/Programas/jdk1.6.0_37/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="elezeta" />
+    <property name="ant.file" value="/home/elezeta/workspace/RogueCave/build.xml" />
+    <property name="os.version" value="3.2.0-4-amd64" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.12-b01" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="/home/elezeta/Programas/jdk1.6.0_37/" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="env.TERM" value="rxvt" />
+    <property name="env.WINDOWPATH" value="7" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type.RogueCave" value="file" />
+    <property name="bootclasspath" value="lib/jdk1.6.0_37/rt.jar" />
+    <property name="user.home" value="/home/elezeta" />
+    <property name="target" value="1.6" />
+    <property name="env.OLDPWD" value="/home/elezeta/workspace/RogueCave/DistScript" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="env.WINDOWID" value="39845891" />
+    <property name="java.library.path" value="lib/lwjgl-2.9.0/native/linux" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.com.elezeta.roguecave.LevelTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/elezeta/workspace/RogueCave/junit/TEST-test.com.elezeta.roguecave.LevelTest.xml crashfile=/home/elezeta/workspace/RogueCave/junitvmwatcher861014571173070740.properties propsfile=/home/elezeta/workspace/RogueCave/junit8229008002636606623.properties" />
+    <property name="java.class.path" value="/home/elezeta/workspace/RogueCave/bin:/home/elezeta/workspace/RogueCave/lib/slick-util/slick-util.jar:/home/elezeta/workspace/RogueCave/lib/pngdecoder/PNGDecoder.jar:/home/elezeta/workspace/RogueCave/lib/lwjgl-2.9.0/jar/jinput.jar:/home/elezeta/workspace/RogueCave/lib/lwjgl-2.9.0/jar/lwjgl_util.jar:/home/elezeta/workspace/RogueCave/lib/lwjgl-2.9.0/jar/lwjgl.jar:/home/elezeta/workspace/RogueCave/lib/kryonet-2.20/jars/production/onejar/kryonet-2.18-all.jar:/home/elezeta/workspace/RogueCave/lib/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar:/home/elezeta/workspace/RogueCave/lib/org.hamcrest.core_1.1.0.v20090501071000/org.hamcrest.core_1.1.0.v20090501071000.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on September 22 2011" />
+    <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="/home/elezeta" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.LD_LIBRARY_PATH" value="/home/elezeta/Programas/jdk1.6.0_37/jre/lib/amd64/server:/home/elezeta/Programas/jdk1.6.0_37/jre/lib/amd64:/home/elezeta/Programas/jdk1.6.0_37/jre/../lib/amd64" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="env.LS_COLORS" value="rs=0:di=01;36:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;4a=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36di=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/ssh-Uv0MTcL2BhnK/agent.3202" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/home/elezeta/Programas/jdk1.6.0_37/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/elezeta/workspace/RogueCave" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.COLORTERM" value="rxvt-xpm" />
+    <property name="basedir" value="/home/elezeta/workspace/RogueCave" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="source" value="1.6" />
+    <property name="file.encoding" value="ISO-8859-1" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="test.com.elezeta.roguecave.LevelTest" name="levelTest1" time="0.0020" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

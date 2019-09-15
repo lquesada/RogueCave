@@ -1,0 +1,88 @@
+
+<html>
+<head>
+<title>Sithjester's RMXP Resources</title>
+<link href="http://untamed.wild-refuge.net/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<center>
+  <img src="images/rpgbanner.png" border="0"> 
+<br><br>
+
+
+    <table class="table2">
+<td width="590" border="1"><div class="heading">Final Fantasy Job Classes</div><br><br>
+<IMG src="images/rpgxp/ff/squire_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/squire_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/knight_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/knight_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/archer_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/archer_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/thief_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/thief_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/monk_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/monk_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/dragoon_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/dragoon_m.png" border=0></a>
+<IMG src="images/rpgxp/ff/ninja_f_blank1.png" border=0></a>
+<IMG src="images/rpgxp/ff/ninja_f_blank2.png" border=0></a>
+<IMG src="images/rpgxp/ff/ninja_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/samurai_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/berserker_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/berserker_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/chemist_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/chemist_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/blackmage_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/blackmage_m.png" border=0></a>
+<IMG src="images/rpgxp/ff/whitemage_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/whitemage_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/redmage_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/redmage_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/bluemage_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/bluemage_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/timemage_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/timemage_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/summoner_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/summoner_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/geomancer_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/geomancer_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/mediator_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/mediator_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/calculator_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/calculator_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/oracle_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/oracle_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/dancer_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/bard_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/mime_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/mime_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/pirate_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/pirate_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/scholar_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/scholar_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/onionknight_f_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/onionknight_m_blank.png" border=0></a>
+<IMG src="images/rpgxp/ff/darkknight.png" border=0></a>
+<IMG src="images/rpgxp/ff/paladin_blank.png" border=0></a>
+<br><br>
+
+</td>
+<td width="200" border="1" valign="top">
+Resources<br><br>
+<a href="rmxpresources.php?characters">Characters</a><br>
+<a href="rmxpresources.php?objects">Objects</a><br>
+<a href="rmxpresources.php?tilesets">Tilesets</a><br>
+<a href="rmxpresources.php?addons">Tileset Addons</a><br>
+<a href="rmxpresources.php?icons">Icons</a><br>
+<a href="rmxpresources.php?window">Window Skins</a><br>
+<a href="rmxpfaq.php?links">Links</a><br>
+<a href="rmxpfaq.php?credit">Credit</a><br>
+<a href="rpgxp.php">Home</a><br><br><br>
+<a href="mailto:sith_jester@yahoo.com">Contact Me</a><br>
+</td>
+  </tr> 
+ </table>
+
+</center>
+</body>
+</html>

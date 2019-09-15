@@ -1,0 +1,440 @@
+URGENTE:
+- 01 - Bug: cuando te cambias objetos equipados, sale el +1 o -1 en otro
+- 02 - Mejoras de jugador:
+  - Contenidos iniciales.  
+  - Requisitos en upgrades.
+  - Mostrar básicos.
+  - Mostrar upgrade points.
+  - Scroll en categorías.
+  - Mostrar lista de comprables por categorías.
+  - Mostrar stats de comprables.
+  - Mostrar requisitos.
+  - Poder comprar. cómo hacerlo desde la gui bien?
+- 03 - Tests (mejoras)
+
+* Reimplementada inteligencia artificial de seguimiento de objetivos.
+* Corregidos errores ortográficos en los menús.
+* Al cambiar de un arma de ráfaga a uno no de ráfaga se mantiene la ráfaga.
+* Listado de mundos para empezar a jugar.
+
+
+DEMO 9
+
+MENU: 
+- Escribir fecha y hora en lo de resumir partida.
+- Ordenar partidas por última vez jugadas
+- Manejar inExtremis
+- Grabación y carga de partidas guardadas, incluyendo resumen.
+
+DEMO 10
+
+Jugabilidad: 
+- Restart tras muerte.
+- Si muerto no puedes hacer nada (ni abrir inventario, ni upgrades, ni escape, ni nada).
+- Objeto para ganar (dependiente del mundo).
+- Si ganado no puedes hacer nada (ni abrir inventario, ni upgrades, ni escape, ni nada).
+- Mundo basado en zonas.
+- Objeto para subir/bajar zona, se mantiene locked si estás cerca.
+- Almacenar mundos vencidos.
+- Mostrar mundos vencidos
+- Poder desbloquear mundos.
+- Logros
+- Por defecto se muestra la lista con el último mundo superado (bueno, el anterior al primero sin superar).
+
+DEMO 11
+
+ 
+
+
+
+- bolas de fuego esféricas? permitir funciones de 0 a 1
+
+
+
+
+- 01 - Impedir cambiar armadura si estás tainted.
+- recoloca donde sea: Alguna chorradica para mejorar el funcionamiento si hay muchos bichos? Que sólo cada x tiempo busquen mejora?
+- Llevas casco puesto, pones sobre armadura, pones sobre casco, se actualiza mal la información de mejora.
+- Poder escoger nombre + Bug: que salga un guión al escribir nombre.
+- 08 - Nombre: mostrar (random) cuando no haya nada.
+- 06 - Que las paredes tapen la visión.
+- 07 - Dibujar visión máxima.
+- 02 - Poder usar pócimas y cosas así desde el inventario (o poder marcarlas para que se usen, al menos... vamos, poder dar en una comboself para activarla O desactivarla mientras estoy en inventario o upgrades).
+- 04 - Un click, seleccionar, dos clicks activar.
+- 05 - Reserva inicial de memoria suficiente.
+
+Multiplayer:
+- upgardesconnect y upgardesserver, igual con inventory
+- Añadir gui servidor
+- Menú multiplayer -> abrir servidor
+- Menú multiplayer -> abrir servidor continuar partida
+- Menú multiplayer -> conectar
+- Menú multiplayer -> configurar personaje
+- Funcionalidad multiplayer simple.
+- Tecla escribir texto
+- Funcionalidad escribir texto
+- Revisión navegación controladores que se hayan abierto.
+
+- Single player: escoger NIVEL y nombre, no mundo y personaje
+- Multiplayer: escoger NOMBRE, nivel, personaje
+
+
+
+
+- Mostrar efecto del arma (por ejemplo, curación)
+- El recovery de los objetos no influye.
+- La accuracy de los objetos no influye.
+- Al caer las flechas se quedan clavadas en esa posición (con probabilidad) futuro decay
+- Si golpeas un bicho con una flecha, se puede quedar clavada en él (inventario)
+
+
+
+
+
+- Bichos que disparan hacia posición estimada del jugador.
+- Ataques que hagan retroceso, como el agua, aunque no hagan daño.
+- Disparos que atraviesen (cada disparo debe tener la lista de hitted entities)
+- Disparos que atraviesen con daño acumulable que se va reduciendo.
+
+
+
+
+
+OPTIMIZACION
+- Profiling.
+- Optimizar stats update, que se hace siempre.
+- Optimizar los canPickup, que se hacen siempre.
+- Tests stats + stats objetos.
+
+- TESTS
+- Añadir pruebas a getIJ
+- Tests planeroute (radio, resbalado!!).
+- Tests planeLevel
+- Tests GUI
+- Tests ataques
+- Tests min y max vertical angle respecto a tamaño nivel
+
+
+
+- Actualizar JDK
+- Actualizar LWJGL
+- Cambiar sistema GUI
+
+------------------------------------------------VERSION ALPHA 1
+
+
+
+http://opengameart.org/content/lpc-style-farm-animals
+http://opengameart.org/content/32x32-fantasy-tileset
+http://opengameart.org/content/zombie-and-skeleton-32x48
+
+http://opengameart.org/content/lpc-full-plate-golden-armor-0
+http://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+
+
+
+REORGANIZAR PARA SACAR MENOS DEMOS
+
+
+
+- Si flecha se rompe -> decay
+- Flechas clavadas en bichos.
+- Transparencia a ataques conforme les falta poco para desaparecer.
+- Añadir variación tiempos a ataques para que hagan un decay mejor.
+- Huellas con decay.
+- Sangre con decay.
+- Quemaduras con decay.
+- Objetos con decay no se muestran en calidad baja.
+- Calidad alta tiene límite alto de efectos
+- Calidad media tiene límite bajo de efectos
+- Calidad baja: no efectos
+- Animación para muerte y para dañado.
+- Animaciones para golpes.
+- Cadáveres de bichos!
+- Muñeco tumbado cuando esté muerto.
+- Los muñecos se pelan de objetos al andar sobre los cadáveres.
+
+DEMO
+
+- Scale en sprites.
+- El animationfactor va en los sprites.
+- Sprites cuya animación "acabe" en una última frame sin loop.
+
+DEMO
+
+- armyguys semitransparentes.
+
+DEMO
+
+- Tiempo de recuperación por objeto (más rápido si untainted). 
+- Ataques instantaneos, que aparecen donde sea.
+- Ataques con ángulo espúreo, de los que aparecen donde sea, en cualquier sentido.
+- Ataques con lista de hits compartida por ráfaga .
+
+DEMO
+
+- Efectos (exp, nivel, curación, daño armyguys, pantalla roja dañado, hits hechizos + hits en paredes, ardiendo, helándose, etc., ...).
+- Chorreones de sangre armyguys y jugador
+- Quemaduras en paredes
+
+DEMO
+
+- Colores por nivel a las tiles
+
+DEMO
+
+- Soporte para achievements.
+- Menú achievements
+
+DEMO
+
+- Añadir achievements.
+- Añadir requisitos de achievements.
+- Corrección de bugs de la ALPHA 1
+
+DEMO
+
+- TESTS
+
+------------------------------------------------VERSION ALPHA 2
+
+- Generador de niveles
+
+DEMO
+
+- Distintas quests.
+- Clases bloqueadas
+- Quests bloqueadas
+
+DEMO
+
+- Grabado de datos (configuración, achievements, etc.) a archivos.
+- Ojo, guardar partidas a medias en ficheros aparte.
+- Ir guardando partida in extremis conforme se pasa de nivel (evitar duplicidad)
+- Mostrar partidas grabadas in extremis
+- Entrar en pausa = salvar partida, quitar el salvado in extremis de los menús de confirmación.
+- Mecanismo rápido de salvado de partidas usando dos hebras.
+
+DEMO
+
+- Terreno natural (alteraciones).
+- Hierbajos y subproductos :D
+- Efectos
+
+DEMO
+
+- Habitaciones bloqueables.
+
+DEMO
+
+- Paralelizar procesamiento????? Soporte multicore en rutas, visibilidades, etc.
+
+DEMO
+
+- TESTS
+
+------------------------------------------------VERSION ALPHA 3
+
+- Pasar a AWTGLCanvas y poner pantalla de Loading rápida. Arreglar resizes, icono, etc.
+
+DEMO
+
+- Sonidos.
+
+DEMO
+
+- Gráficos.
+
+DEMO
+
+- Congelación y quema y veneno y electricidad.
+
+DEMO
+
+- Design fixes: Eliminar setters privados no usados.
+- Design fixes: Eliminar resto de setters privados y getters privados?
+- Design fixes: Ojo con los gets y sets de listas: An example of encapsulation that prevents users from doing wrong things with your Api is returning an IEnumerable instead of IList when you don't want to give the ability to the user to add or remove items in the list.  
+
+DEMO
+
+- TESTS
+
+------------------------------------------------VERSION ALPHA 4
+
+- Equipo, hechizos, armyguys, habitaciones especiales, quests completas, clases avanzadas.
+- Decidir upgrades + afinidades.
+- Rellenar bd de items.
+- Rellenar bd de armyguys.
+- Clases básicas (Grunt, Archer, Mage, ...).
+- Algo de equipo.
+- Quest de ejemplo.
+- Enemigo: murciélago, se queda aparcado en el suelo y cuando ve al jugador se levanta hasta una altura en la que oscila. Puede aterrizar de nuevo.
+- Neutral: mosca, oscila por ahí.
+- Enemigo: abeja
+- Enemigo: panal
+
+------------------------------------------------VERSION BETA 1
+
+- Contenido
+
+DEMO
+
+- TESTS
+
+------------------------------------------------VERSION BETA 2
+
+- Contenido
+
+DEMO
+
+- TESTS
+
+------------------------------------------------VERSION BETA 3
+
+- Contenido
+
+DEMO
+
+- TESTS
+
+------------------------------------------------VERSION BETA 4
+
+
+- Generar exe, sh/bin, dmg, que incluyan el jre.
+
+------------------------------------------------
+------------------------ VERSION 1.0
+------------------------------------------------
+
+
+- Hacer algún tipo de escalado de la GUI?
+
+- Juntar/separar objetos con cantidad.
+- Click derecho para coger o soltar objetos mitad a mitad.
+- Click central para coger o soltar objetos uno a uno.
+
+
+
+
+KNOWN BUGS:
+- (LWJGL) You can resize the window and make it smaller than it should be. When you drop it, it gets fixed. 
+- (LWJGL) Resizing a window makes the content relocate and jump in the screen for a one frame lapse.
+
+
+
+
+DESCARTADAS
+- bichos que huelen u oyen? usar propagación por casillas.
+- Habitaciones pasillos angostos.
+????? Paredes ocultan visión.
+????? poder cambiar la frecuencia de ciclo de un sprite para hacer fuego rápido.
+? Ataques con next en cadena para slashes.
+? Sprites conectados para slashes
+- Mapa pulsando tab.
+- Poder saltar (aunque sea agujeros)
+- Poder subirse a cosas
+- Visibilidad dependiente de lookAngle, armyguys patrullan.
+- Variar forceZ de las flechas según distancia?
+- Que el override del autofire no sea del jugador sino del item
+- Disparos que hacen tracking si más próximos que una distancia y ven al target (usar hack como being?).
+- Poder indicar qué objetos se pueden poner donde. (requiresTarget, una opción que permita ponerlos en combo aunque no requiera target)
+- Color amarillo para identificar objetos no vistos?
+- Colores para identificar objetos peores que otros.
+- Requisitos en objetos.
+- Boyscout: Hacer AttackID y AttackFactory, así se pueden definir ataques complejos con subproductos y se simplifican los items.
+- Boyscout: Que en lugar de mantener muchas variables para el burst en being, mantenga un Attack y lo vaya actualizando ahí.
+- Boyscout: limpiar todos los métodos innecesarios del inventario: getComboSelf, setComboSelf, getCombo, setCombo, getAmulet, Helmet, etc. y los setters.
+- Boyscout: Cargarme encapsulamientos que son private, probar cuales puedo quitar haciéndolos private.
+- Boyscout: Cargarse setters y getters que sólo se usan en la misma clase.
+- Boyscout: limpiar particularmente Being, Item, e Inventory.
+- Pantalla completa para resolución mínima.
+- Resolver Bad Smell de Data Clump en coordenadas.
+- Caducidad en objetos peores que los del jugador.
+- Usar listas de opengl para los objetos.
+- Hacer saveConfig en segundo plano (y sin chocar, y si hay otra petición repetir luego).
+- al cambiar a lenguaje azerty o de azerty a qwerty no se cambian las teclas, y si se pone un por defecto y, si no se modifican, no se cambia?
+- Quitar botonacos del menú y dejar solo el texto?
+- Que se muestre aviso al coger objeto (+ obviar repeticiones?).
+
+
+
+
+
+
+		/* TODO
+		button2 = new MenuTextButton();
+		button2.setX(-183);
+		button2.setY(-60-15);
+		button2.setW(366);
+		button2.setH(48);
+		setName();
+		button2.setNumber(1);
+		button2.setEnabled(true);
+		button2.setActuator(new MenuActuator(){
+			@Override
+			public void run() {
+			}
+		});
+		menu.getComponents().add(button2);
+		*/
+		
+		
+	/*
+	private void setName() {
+		button1.setString(RogueCaveGUI.language.getString(StringID.NAME,name));
+	}
+
+	@Override
+	public void deactivate() {
+		RogueCaveGUI.config.name = name;
+		RogueCaveGUI.saveConfig();
+		Keyboard.enableRepeatEvents(false);
+	}*/
+
+		
+
+	@Override
+	public void keyPressFilter(int eventKey,char character) {
+		menuKeysSoft(menu,eventKey);
+		if (eventKey==RogueCaveGUI.config.getKey(ControlID.QUITFIXED)) { RogueCaveGUI.newController = SinglePlayerMenuController.get(); }
+		/* TODO
+		if (selectedButton==1) {
+			if (character!=0) {
+				if (character==8) {
+					Keyboard.enableRepeatEvents(true);
+					if (name.length()>0) {
+						String oldName = name;
+						name = name.substring(0,name.length()-1);
+						if (!NameFactory.checkNameSoft(name))
+							name = oldName;
+						name = NameFactory.capitalize(name);
+						setName();
+					}
+				}
+				else if (character>=32 && character!=255 && character!=127) {
+					Keyboard.enableRepeatEvents(true);
+					String oldName = name;
+					name = name+character;
+					if (!NameFactory.checkNameSoft(name))
+						name = oldName;
+					name = NameFactory.capitalize(name);
+					setName();
+				}
+			}
+		}
+		else*/
+			Keyboard.enableRepeatEvents(false);
+	}
+
+/*	@Override
+	public void menuHover(Menu menu,int x,int y) {
+		super.menuHover(menu,x,y);
+	}
+
+	@Override
+	public void menuClick(Menu menu,int x,int y) {
+		if (menuOver(x,y,RogueCaveGUI.width/2+button1.getX(),RogueCaveGUI.height/2+button1.getY(),button1.getW(),button1.getH()))
+			super.menuHover(menu,x,y);
+		super.menuClick(menu,x,y);
+	}*/
+		

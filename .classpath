@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/slick-util/slick-util.jar"/>
+	<classpathentry kind="lib" path="lib/pngdecoder/PNGDecoder.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-2.9.0/jar/jinput.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-2.9.0/jar/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-2.9.0/jar/lwjgl.jar"/>
+	<classpathentry kind="lib" path="lib/kryonet-2.20/jars/production/onejar/kryonet-2.18-all.jar"/>
+	<classpathentry kind="lib" path="lib/org.hamcrest.core_1.1.0.v20090501071000/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+	<classpathentry kind="lib" path="lib/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
